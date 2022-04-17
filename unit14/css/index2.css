@@ -1,0 +1,30 @@
+.container{
+	width: 50%;
+	margin: 0 auto;
+	background-color: #003310;
+	color: #fff;
+}
+.title{
+	padding: 10px;
+}
+.conten_block{
+	border: 1px solid red;
+	position: relative;
+	
+}
+.content{
+	padding-left: 20px;
+}
+.show{
+	width: 20px;
+	height: 20px;
+	background-color: #006620;
+	position: absolute;
+	left: -10px;
+}
+.content_show{
+	display: block;
+}
+.content_hide{
+	display: none;
+}

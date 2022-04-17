@@ -1,0 +1,48 @@
+img{
+	width: 100%;
+	height: 400px;
+}
+h1{
+	text-align: center;
+}
+.thumbnail_block{
+	display: flex;
+	width: 80%;
+	margin: 0;
+}
+#myModal{
+	display: none;
+}
+.modal{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	margin-top: -400px;
+	width: 100%;
+	height: 700px;
+}
+.modal-content{
+	position: absolute;
+	left: 500px;
+	top: 150px;
+}
+.fa-times{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	color: #ccc;
+	font-size: 30px;
+}
+.fa-caret-left{
+	position: absolute;
+	left: 2px;
+	top: 300px;
+	color: #ccc;
+	font-size: 50px;
+}
+.fa-caret-right{
+	position: absolute;
+	right: 2px;
+	top: 300px;
+	color: #ccc;
+	font-size: 50px;
+}

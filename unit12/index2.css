@@ -1,0 +1,40 @@
+.container{
+	display: flex;
+	justify-content: center;
+	background-image: url(image_unit12/1451462433-bon-tong-mau-huyen-thoai--3-.jpg);
+	width: 100%;
+	height: 500px;
+	position: relative;
+	
+}
+.coating{
+	background-image: linear-gradient(gray, white);
+	position: absolute;
+	opacity: 0.3;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+
+}
+.hi{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+	position: relative;
+
+}
+#d{
+	font-size: 50;
+	font-weight: 500px;
+}
+.hihi{
+	position: absolute;
+	left: 75px;
+	top: 75px;
+	font-size: 50px;
+	font-weight: 500;
+	color: #D8ff00;
+	z-index: 2;
+}

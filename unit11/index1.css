@@ -1,0 +1,16 @@
+.content__box{
+	width: 800px;
+	height: 50px;
+	box-shadow: 5px 5px 5px gray;
+	padding: 10px;
+}
+.hi{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+}
+.check{
+	width: 100px;
+	height: 30px;
+	background-color: orange;
+}

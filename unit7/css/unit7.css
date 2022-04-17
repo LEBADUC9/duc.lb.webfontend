@@ -1,0 +1,301 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+	color: #9da29f;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	border-radius: 5px;
+	height: 100%;
+	object-fit: cover;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.header__menu ul{
+	display: flex;
+}
+.header__menu ul li{
+	font-size: 16px;
+	font-weight: 700px;
+	padding: 10px 20px;
+}
+.header__logo{
+	font-size: 20px;
+	font-weight: 700px;
+	padding: 10px 20px;
+}
+.container{
+	width: 1300px;
+	flex-wrap: wrap;
+	margin: 0px 125px;
+	display: flex;
+	
+}
+.block1{
+	width: 100%;
+	/*height: 700px;*/
+	background-color: #Dddedd;
+}
+.item1{
+	width: calc(100% / 3);
+	padding: 10px;
+}
+.thumbnail{
+	position: relative;
+}
+.title{
+	position: absolute;
+	bottom: 5px;
+	left: 2px;
+}
+.tag{
+	display: flex;
+	position: absolute;
+	bottom: 50px;
+	left: 2px;
+}
+.tag1{
+	width: 70px;
+	height: 20px;
+	color: #ffffff;
+	background-color: #ff0015;
+	padding: 2px;
+	border-radius:5px;
+}
+.tag2{
+	width: 60px;
+	height: 20px;
+	color: #ffffff;
+	background-color: #49cdfb;
+	padding: 2px 4px;
+	border-radius:5px;
+}
+.item1__row1{
+	padding: 10px;
+}
+.recentposts{
+	font-size: 22px;
+	font-weight: 700px;
+	padding: 10px 20px;
+	padding: 100px 0px;
+	color: #000;
+}
+.main__item{
+	width: calc(100% / 3);
+	padding: 20px 10px;
+}
+.main__item-tag{
+	width: 80px;
+	height: 20px;
+	color: #ffffff;
+	background-color: #4f5649;
+	padding: 2px 4px;
+	border-radius:5px;
+	margin: 20px 0px;
+}
+.main__item-title{
+	font-size: 20px;
+	font-weight: 700px;
+	margin: 20px 0px;
+}
+.main__item-auther{
+	margin: 20px 0px;
+}
+.main__item-des{
+	margin: 20px 0px;
+}
+.readmore{
+	font-size: 16px;
+	color: #48afea;
+	margin: 20px 0px;
+}
+.page{
+	display: flex;
+	justify-content: center;
+}
+.page__1{
+	margin: 30px 10px;
+
+}
+.page__2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #3e7bda;
+	
+	padding: 20px;
+	margin: 20px 10px;
+}
+.page__2-1{
+	justify-content: center;
+	color: #ffffff;
+}
+.block2{
+	width: auto;
+	background-color: #Dddedd;
+}
+.block2__item1{
+	width: 60%;
+	padding: 5px 10px;
+}
+.block2__item2{
+	width: 40%;
+	height: 810px;
+	padding: 5px 10px;
+}
+.block2__item1-row1{
+	/*height: 50%;*/
+
+}
+.block2__item1-row2{
+	margin-left: -10px;
+    margin-right: -10px;
+	display: flex;
+}
+.block2__item1-row2-1{
+	margin: 5px 0px 5px 0px;
+	padding:  5px 10px;
+}
+.block2__thumbnail{
+	position: relative;
+	height: 100%;
+	
+}
+.block2__tag{
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	width: 70px;
+	height: 20px;
+	color: #ffffff;
+	background-color: #00ff51;
+	border-radius: 5px;
+	padding: 1px 3px;
+}
+.block2__title{
+	position: absolute;
+	left: 5px;
+	bottom: 10px;
+}
+.follow__container{
+	width: 500px;
+	flex-wrap: wrap;
+	margin: 0px 500px;
+	display: flex;
+	justify-content: center;
+	
+}
+.follow__title{
+	font-size: 20px;
+	font-weight: 500px;
+	padding: 30px 0px 10px 0px;
+}
+.mail{
+	padding: 20px 0px;
+	display: flex;
+}
+.mail__box{
+	font-size: 18px;
+	border:1px solid #ddd;
+}
+.subscribe{
+	background-color: #002fff;
+	color: #ffffff;
+	border:0;
+	font-size: 20px;
+}
+.footer__block{
+	width: auto;
+	background-color: #3d3f3e;
+	/*color: #ffffff;*/
+}
+.footer__block-item{
+	width: 30%;
+}
+
+.footer__block-ul{
+	display: flex;
+	justify-content: center;
+}
+.footer__block-ul li {
+	padding: 10px;
+}
+.aboutus{
+	padding: 20px 0px;
+}
+.connect{
+	padding: 20px 0px;
+}
+.fab{
+	padding: 0px 10px;
+}
+.hi__container{
+	display: flex;
+	justify-content: center;
+	padding: 100px 0px;
+}
+.hi{
+	display: flex;
+}
+.hihi{
+	color: #C9cecb;
+	padding: 2px;
+}
+.fa-heart{
+	color: red;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.main__item{
+		width: 100%;
+		
+	}
+	.block1{
+	width: 100%;
+	}
+	body{
+		width: 100%
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.item1__row1{
+		width: 100%;
+	}
+	.item1{
+		width: 100%;
+	}
+	.main__item{
+		width: 100%;
+	}
+	.block2__item1-row1{
+		width: 100%;
+	}
+	.block2__item1-row2{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.block2__item1-row2-1{
+		width: 100%;
+	}
+	.block2__item1{
+		width: 100%;
+	}
+	.block2__item2{
+		width: 100%;
+	}
+	.footer__block-item{
+		width: 100%;
+	}
+	.container{
+		flex-wrap: wrap;
+	}
+}

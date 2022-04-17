@@ -1,0 +1,32 @@
+.container{
+	width: 30%;
+	margin: 0 auto;
+	
+}
+.block{
+	background-color: red;
+}
+.title{
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+	margin: 10px;
+	text-align: center;
+}
+#input{
+	width: 80%;
+}
+#error{
+	color: red;
+}
+.close{
+	float: right;
+	color: #ccc;
+}
+.list_task{
+	background-color: #E8eae8;
+
+}
+.done{
+	color: #00ff51;
+}

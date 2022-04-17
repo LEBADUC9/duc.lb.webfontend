@@ -1,0 +1,26 @@
+.item{
+	float: left;
+	border:solid 1px gray;
+	text-align: center;
+	column-width: 
+}
+p{
+	color: orange;
+
+}
+h4{
+	color: red;
+}
+div{
+	width:150px;
+	
+}
+div:hover{
+	border-color: orange;
+}
+p:hover{
+	color: green;
+}
+h4:hover{
+	color: blue;
+}
