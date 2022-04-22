@@ -1,0 +1,28 @@
+$(document).ready(function() {
+   $('.block4_item-show').on('click',function(){
+        $(this).parent().parent().next().children().slideToggle(1000);
+        $(this).siblings().toggle();
+        $(this).toggle();
+   })
+    $('.block4_item-hide').on('click',function(){
+        $(this).parent().parent().next().children().slideToggle(1000);
+        $(this).siblings().toggle();
+        $(this).toggle();
+   })
+});
+/*$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})*/

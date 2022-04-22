@@ -1,0 +1,287 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+a{
+	text-decoration-line: none;
+}
+ul,ol{
+	list-style: none;
+	display: flex;
+}
+li{
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #959596;
+}
+li:hover{
+	color: #3333d6;
+}
+img{
+	width: 100%;
+}
+header{
+	background-image: url(../img_unit19/hero-3-img.png);
+}
+.header_contact{
+	background-color: #50c594;
+	width: 10%;
+	color: #fff;
+	padding:10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.header_title{
+	font-size: 60px;
+	font-weight: 600;
+	margin: 40px 0;
+}
+.header_content{
+	color: #959596;
+	font-size: 20px;
+	margin: 40px 0;
+}
+.header_icon{
+	font-size: 40px;
+	margin: 40px 0;
+}
+.fa-facebook-square{
+	color: #0778e8;
+}
+.fa-instagram-square{
+	color: #d52c7b;
+}
+.fa-twitter-square{
+	color: #1c96e8;
+}
+.fa-github-square{
+	color: #24292f;
+}
+.header_started{
+	background-color: #50c594;
+	width: 10%;
+	color: #fff;
+	padding:10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.header_learn{
+	background-color: #fff;
+	color: #50c594;
+	border:2px solid #50c594;
+	width: 10%;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.block1{
+	margin-bottom: 100px;
+}
+.block1_title{
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	padding: 10px 0;
+}
+.block1_content{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #959596;
+}
+.block1_item{
+	border: 1px solid #ccc;
+}
+.block1_item-icon{
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+.block1_item-title{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.block1_item-content{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+.block2{
+	background-color: #F1f4f7;
+}
+.block2_title{
+	padding-top: 100px;
+}
+.block2_content{
+	margin-bottom: 50px;
+}
+.block2_item{
+	border: 1px solid #ccc;
+}
+.block2_item-icon{
+	padding: 5px 10px;
+}
+.block2_item-title{
+	padding: 5px 10px;
+}
+.block2_item-content{
+	padding: 5px 10px;
+	color: #808181;
+}
+.fa-star{
+	color:#F7d80a;
+}
+.fa-medal{
+	color:#F7d80a;
+}
+.row{
+	margin: auto;
+}
+.block3{
+	margin: 100px 0;
+}
+.block3_title{
+	text-align: center;
+}
+.block3_content{
+	text-align: center;
+	font-size: 20px;
+}
+.block3_item{
+	margin: 20px 0;
+}
+.block3_item:hover{
+	box-shadow: 0px 0px 5px 5px #Ececeb;
+	transition: ease-out 1s;
+}
+.block3_item:hover .block3_item-more{
+	color: blue;
+	transition: ease-out 1s;
+}
+.block3_item-icon{
+	font-size: 25px;
+	padding: 5px 10px;
+}
+.block3_item-title{
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.block3_item-content{
+	padding: 5px 10px;
+	color: #808181;
+}
+.block3_item-more{
+	color: white;
+	padding: 5px 10px;
+}
+.fa-user-friends{
+	color: #333381;
+}
+.fa-network-wired{
+	color: #F5c424;
+}
+.fa-columns{
+	color: #D85d46;
+}
+.fa-file{
+	color: #6fc98f;
+}
+.fa-tint{
+	color: #7e8180;
+}
+.fa-cog{
+	color: #2f2f58;
+}
+.block4{
+	padding: 200px 0;
+}
+.block4_item-show{
+	display:block;
+	font-size: 25px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.block4_item-hide{
+	display: none;
+	font-size: 25px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.block4_title{
+	font-size: 20px;
+	color: #808181;
+	padding:10px;
+}.block4_content{
+	font-size: 30px;
+	font-weight: 600;
+	padding:10px;
+}
+.block4_item-title{
+	font-size: 20px;
+	font-weight: 600;
+}
+.block4_item-content{
+ 	color: #808181;
+ 	padding:20px;
+ 	display: none;
+}
+.block5{
+	background-color: #f1f4f7;
+	padding: 100px 0;
+}
+.block5_title{
+	font-size: 30px;
+	font-weight: 600;
+	padding:10px;
+	text-align: center;
+}
+.block5_content{
+	font-size: 20px;
+	font-weight: 500;
+	padding:10px;
+	text-align: center;
+	color: #808181;
+}
+.block5-item{
+	background-color: #fff;
+	padding: 5px 0;
+}
+.block5-item:hover{
+	background-color: #2f2f58;
+	color: #fff;
+}
+.block5-item:hover .block5-item-price{
+	color: #ff003f;
+}
+.block5-item-title{
+	text-align: center;
+	padding: 20px;
+	font-weight: 600;
+}
+.block5-item-price{
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+.block5-item-time{
+	text-align: center;
+	padding: 10px;
+	color: #808181;
+}
+.block5-item-content{
+	text-align: center;
+	padding: 10px;
+}
+.block5-item-tag{
+	width: 25%;
+	background-color: #50c594;
+	color: #fff;
+	padding:7px;
+	margin: 20px auto;
+}
